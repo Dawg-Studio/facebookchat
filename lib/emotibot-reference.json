@@ -1,0 +1,116 @@
+{
+  "project": "PROJECT EMOTIBOT",
+  "description": "Scripted emotional support flow for students using Bible verses, saint quotes, and motivational songs",
+
+  "conversation_flow": {
+    "step_1": "AI says: 'Hello dear student, how may I assist your feelings today?'",
+    "step_2": "Student shares their feeling",
+    "step_3": "AI responds with matching Bible verse(s) / saint quote",
+    "step_4": "Student reads the verse",
+    "step_5": "AI says: 'I hope I was able to help your feeling. Feel free to write your personal reflection.' — student writes thoughts based on what they read",
+    "step_6": "Student writes their personal reflection",
+    "step_7": "AI gives a motivational song title (with artist) and parting words"
+  },
+
+  "feeling_responses": [
+    {
+      "feeling": "anxiety",
+      "keywords": ["anxious", "anxiety", "worried", "nervous", "panic"],
+      "response": "Fear not, I am with you; be not dismayed; I am your God. I will strengthen you, and help you, and uphold you with my right hand of justice. (Isaiah 41:10)\n\nDo not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus. (Philippians 4:6-7)"
+    },
+    {
+      "feeling": "stress",
+      "keywords": ["stress", "stressed", "overwhelmed", "too much", "burden"],
+      "response": "Cast your burden on the Lord, and he will sustain you; he will never permit the righteous to be shaken. (Psalm 55:22)\n\nCome to me, all you that are weary and are carrying heavy burdens, and I will give you rest. Take my yoke upon you and learn from me; for I am gentle and humble in heart, and you will find rest for your souls. For my yoke is easy, and my burden is light. (Matthew 11:28-30)"
+    },
+    {
+      "feeling": "loneliness",
+      "keywords": ["lonely", "loneliness", "alone", "isolated", "no one", "abandoned"],
+      "response": "The secret of happiness is to live moment by moment and to thank God for all that He, in His goodness, sends to us day after day. — St. Gianna Molla\n\nIt is the Lord who goes before you. He will be with you; he will not fail you or forsake you. Do not fear or be dismayed. (Deuteronomy 31:8)"
+    },
+    {
+      "feeling": "fear",
+      "keywords": ["fear", "afraid", "scared", "terrified", "frightened"],
+      "response": "The Lord is my light and my salvation; whom shall I fear? The Lord is the stronghold of my life; of whom shall I be afraid? Wait for the Lord; be strong, and let your heart take courage; wait for the Lord! (Psalm 27:1,14)\n\nI hereby command you: Be strong and courageous; do not be frightened or dismayed, for the Lord your God is with you wherever you go. (Joshua 1:9)"
+    },
+    {
+      "feeling": "sad",
+      "keywords": ["sad", "sadness", "unhappy", "down", "crying", "cry", "sorrow"],
+      "response": "Pain and suffering have come into your life, but remember pain, sorrow, suffering are but the kiss of Jesus — a sign that you have come so close to Him that He can kiss you. — St. Mother Teresa of Calcutta\n\nThe Lord Himself goes before you and will be with you; He will never leave you nor forsake you. Do not be afraid; do not be discouraged. (Deuteronomy 31:8)"
+    },
+    {
+      "feeling": "anger",
+      "keywords": ["angry", "anger", "mad", "furious", "irritated", "annoyed"],
+      "response": "Know this, my beloved brothers: let every person be quick to hear, slow to speak, slow to anger; for the anger of man does not produce the righteousness of God. (James 1:19-20)\n\nThe LORD is merciful and gracious, slow to anger and abounding in steadfast love. He will not always chide, nor will he keep his anger forever. He does not deal with us according to our sins, nor repay us according to our iniquities. (Psalm 103:8-10)"
+    },
+    {
+      "feeling": "frustration",
+      "keywords": ["frustrated", "frustration", "stuck", "failing", "failed"],
+      "response": "Trust in the Lord with all your heart, and do not rely on your own insight. In all your ways acknowledge him, and he will make straight your paths. (Proverbs 3:5-6)\n\nWe know that all things work together for good for those who love God, who are called according to his purpose. (Romans 8:28)"
+    },
+    {
+      "feeling": "confusion",
+      "keywords": ["confused", "confusion", "uncertain", "unsure", "lost", "dont know"],
+      "response": "Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you. (Matthew 7:7)\n\nTrust in the LORD with all your heart, and do not lean on your own understanding. In all your ways acknowledge him, and he will make straight your paths. (Proverbs 3:5-6)"
+    },
+    {
+      "feeling": "insecurity",
+      "keywords": ["insecure", "insecurity", "not good enough", "ugly", "worthless", "unworthy"],
+      "response": "I praise you, for I am fearfully and wonderfully made. Wonderful are your works; that I know very well. (Psalm 139:14)\n\nFor we are God's masterpiece. He has created us anew in Christ Jesus, so we can do the good things he planned for us long ago. (Ephesians 2:10)"
+    },
+    {
+      "feeling": "burnout",
+      "keywords": ["burnout", "burned out", "exhausted", "drained", "tired", "depleted"],
+      "response": "But those who wait for the Lord shall renew their strength, they shall mount up with wings like eagles, they shall run and not be weary, they shall walk and not faint. (Isaiah 40:31)\n\nSo let us not grow weary in doing what is right, for we will reap at harvest time, if we do not give up. So then, whenever we have an opportunity, let us work for the good of all, and especially for those of the family of faith. (Galatians 6:9-10)"
+    },
+    {
+      "feeling": "pressure",
+      "keywords": ["pressure", "pressured", "expectations", "expectation", "grade", "grades"],
+      "response": "I hereby command you: Be strong and courageous; do not be frightened or dismayed, for the Lord your God is with you wherever you go. (Joshua 1:9)\n\nAnd let us not grow weary while doing good, for in due season we shall reap if we do not lose heart. (Galatians 6:9)"
+    },
+    {
+      "feeling": "hopeless",
+      "keywords": ["hopeless", "hopelessness", "no hope", "give up", "giving up", "despair"],
+      "response": "Faith is to believe what you do not see. The reward of faith is to see what you believe. — St. Augustine of Hippo\n\nFor surely I know the plans I have for you, says the Lord, plans for your welfare and not for harm, to give you a future with hope. (Jeremiah 29:11)"
+    },
+    {
+      "feeling": "excited",
+      "keywords": ["excited", "excitement", "grateful", "thankful", "blessed"],
+      "response": "The Lord your God is with you, the Mighty Warrior who saves. He will take great delight in you; in his love he will no longer rebuke you, but will rejoice over you with singing. (Zephaniah 3:17)\n\nThis is the day the Lord has made. We will rejoice and be glad in it. (Psalm 118:24)"
+    },
+    {
+      "feeling": "happy",
+      "keywords": ["happy", "happiness", "joy", "joyful", "glad"],
+      "response": "May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit. (Romans 15:13)\n\nA cheerful heart is good medicine, but a crushed spirit dries up the bones. (Proverbs 17:22)"
+    },
+    {
+      "feeling": "depressed",
+      "keywords": ["depressed", "depression", "sad all the time", "empty", "numb"],
+      "response": "If God sends you many sufferings it is a sign that He has great plans for you, and certainly wants to make you a saint. — St. Ignatius of Loyola\n\nWhen the righteous cry for help, the Lord hears and delivers them out of all their troubles. The Lord is near to the brokenhearted and saves the crushed in spirit. (Psalm 34:17-18)"
+    }
+  ],
+
+  "crisis_keywords": [
+    "suicide",
+    "kill myself",
+    "want to die",
+    "end my life",
+    "hurt myself",
+    "self harm",
+    "self-harm",
+    "no reason to live"
+  ],
+
+  "crisis_response": "I hear you, and I want you to know that you are not alone. Please reach out to someone who can help you right now. Talk to a school counselor, a trusted adult, or contact the Philippines National Center for Mental Health Crisis Hotline at 1553 or 0966-351-4518 / 0917-899-8727. If this is an emergency, please call 911 or go to the nearest hospital immediately. You matter, and there are people who care about you and want to help.",
+
+  "motivational_songs": [
+    "Way Maker – Sinach",
+    "Oceans (Where Feet May Fail) – Hillsong United",
+    "What a Beautiful Name – Hillsong Worship",
+    "Goodness of God – Bethel Music",
+    "10,000 Reasons (Bless the Lord) – Matt Redman",
+    "Great Are You Lord – All Sons & Daughters",
+    "Do It Again – Elevation Worship",
+    "Who You Say I Am – Hillsong Worship"
+  ]
+}
